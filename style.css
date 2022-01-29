@@ -316,6 +316,8 @@ a:hover {
 }
 
 .navbar .nav {
+  display: flex;
+  flex-direction: row;
   padding-top: 2px;
   margin-right: -16px;
   float: right;
@@ -679,7 +681,7 @@ a {
 }
 
 p {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .tight-width-whitespace {
@@ -773,11 +775,11 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-  background-color: #f3976c;
+  background-color: #f7bc9f;
 }
 
 .tc-white {
-  color: #f3976c !important;
+  color: #686462 !important;
 }
 
 .btn-atomic-tangerine {
@@ -812,11 +814,11 @@ h4 {
 }
 
 .bg-dots-bg {
-  background-image: url("img/dots-bg.png");
+  background-image: url("img/dots-bg.webp");
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.png");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
